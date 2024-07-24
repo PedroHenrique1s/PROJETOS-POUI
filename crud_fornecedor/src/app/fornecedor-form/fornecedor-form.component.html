@@ -1,0 +1,22 @@
+<po-page-default [p-title]="title">
+    <po-dynamic-form #dynamicForm [p-fields]="fields" [p-value]="supplierValues">
+    </po-dynamic-form>
+  
+    <div class="thf-row">
+      <po-button class="thf-md-3" 
+      *ngIf="!this.supplierId" 
+      p-kind="primary"
+      p-label="Inserir"   
+      p-icon="template"
+      (p-click)="insertSupplier()">
+      
+      </po-button>
+    </div>
+  
+    <po-button 
+      *ngIf="this.supplierId" 
+      p-label="Atualizar Fornecedor" 
+      (p-click)="updateSupplier()">
+    </po-button>
+  
+</po-page-default>
