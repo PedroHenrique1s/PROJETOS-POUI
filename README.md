@@ -7,6 +7,8 @@ Desenvolvendo Projetos em Angular e dependências do POUI - PROTHEUS
 - Injeção de dependências
 - Utilizar frameworks externos
 - **Hospedagem**
+- https://calculadora-theta-gilt.vercel.app/
+  
 <br>
 
 **CRUD-FORNECEDOR**
@@ -29,6 +31,7 @@ Não há Hospedagem
 - Utilizado API externa
 - Criado diferentes tipos de gráficos
 - **Hospedagem**
+- https://dashboard-mocha-sigma-92.vercel.app/
 <br>
 
 **Gerenciador de tarefas**
@@ -38,4 +41,5 @@ Não há Hospedagem
 - Armazenado dados na Localstorage
 - Ciclo de vida dos Componentes  
 - **Hospedagem**
+- https://gerenciador-de-tarefas-jade.vercel.app/tarefas/listar
 <br>
