@@ -1,0 +1,33 @@
+<div class="center">
+    <div class="title-container">
+        <h1 class="po-font-title">Boas-Vindas</h1>
+        <br>
+        <br>
+    </div>
+    <form #form="ngForm">
+        <po-login
+            name="userLogin"
+            p-clean
+            [p-maxlength]="40"
+            p-placeholder="Insira seu usuário"
+         p-required
+        >
+        </po-login>
+
+        <po-password
+            name="userPassword"
+            p-clean
+            p-placeholder="Insira sua senha"
+            p-required
+        >
+        </po-password>
+        <po-button
+            class="singin-btn po-mt-2"
+            p-label="Clique para entrar"
+            p-tooltip="Clique para entrar"
+            [p-disabled]="!form.valid"
+            (p-click)="login()"
+        ></po-button>
+    </form>
+    <br>
+</div>

@@ -1,0 +1,9 @@
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Define a altura como 100% da viewport */
+    margin: 0; /* Remove margens externas */
+    text-align: center; /* Alinha o texto ao centro */
+}
