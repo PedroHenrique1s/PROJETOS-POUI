@@ -1,0 +1,13 @@
+npx @angular/cli@14.0.2 new crud_fornecedor
+npm install typescript@4.x --save-dev
+npm i @totvs/protheus-lib-core@14.1.1
+npm install subsink     
+npm i @totvs/po-theme@14
+ng add @po-ui/ng-components@14.4.0
+ng add @po-ui/ng-templates@14.9.0  
+
+
+
+              "node_modules/@totvs/po-theme/css/po-theme-default-variables.min.css",
+              "node_modules/@totvs/po-theme/css/po-theme-default.min.css",
+              "node_modules/@po-ui/style/css/po-theme-core.min.css"
